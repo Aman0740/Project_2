@@ -1,0 +1,55 @@
+.counter-container {
+  text-align: center;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.count {
+  font-size: 6rem;
+  margin: 20px 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.decrement {
+  background-color: orange;
+  color: white;
+}
+
+button.decrement:hover {
+  background-color: darkorange;
+}
+
+button.reset {
+  background-color: red;
+  color: white;
+}
+
+button.reset:hover {
+  background-color: darkred;
+}
+
+button.increment {
+  background-color: green;
+  color: white;
+}
+
+button.increment:hover {
+  background-color: darkgreen;
+}
